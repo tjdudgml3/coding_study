@@ -1,9 +1,10 @@
-from sympy import N
 
-num = int(input())
-n = list(map(int,input().split(' ')))
+# num = int(input())
+# n = list(map(int,input().split(' ')))
 # n = [4,5,6,7,8]
-
+n = []
+for i in range(100):
+    n.append(1000000 - i)
 def get_div(n):
     # n_sqr = n**(1/2)
     a = 2
