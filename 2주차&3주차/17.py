@@ -9,7 +9,7 @@ def sol(n):
     ans += (n-k+1)*m + (m-k+1)*n
          
     while(n-k+1 > 0 ):
-        ans += (n-temp_k+1) * (m-k+1)
+        ans += (n-k+1) * (m-temp_k+1)
         k += k
         
     k = temp_k 
