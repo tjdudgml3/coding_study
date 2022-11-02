@@ -4,10 +4,12 @@ n, m = list(map(int,input().split(' ')))
 def get_two(n):
     mul = 0
     cnt = 0
+    
     if n < 2:
         return 0
     else:
         mul = 1
+        
     while(n >= 2**mul):
         cnt += int(n//(2**mul))
         mul += 1
@@ -18,10 +20,12 @@ def get_two(n):
 def get_five(n):
     mul = 0
     cnt = 0
+    
     if n < 5:
         return 0
     else:
         mul = 1
+        
     while(n >= 5**mul):
         cnt += int(n//(5**mul))
         mul += 1
