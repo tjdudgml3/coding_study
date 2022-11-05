@@ -33,9 +33,7 @@ def sol(n,k):
         else:
             break
             
-        if high % 10000 == 0:
-            print(low,high)
-        
+       
         # print(f"low = {low}, high = {high}, nlow = {n[low]}, nhigh = {n[high]} shortest = {shortest}")
     if shortest == 1000000000:
         return 0
